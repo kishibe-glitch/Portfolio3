@@ -1,29 +1,10 @@
-.about-me {
-  max-width: 1000px; /* ширина ограничена, но не фиксирована */
-  margin: 0 auto;    /* центрируем по экрану */
-  padding: 60px 20px; /* отступы */
-  text-align: center; /* выравнивание по центру */
-}
-
-.about-title {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.about-text {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #444;
-}
-
-@media (max-width: 768px) {
-  .about-title {
-    font-size: 28px;
-  }
-  .about-text {
-    font-size: 16px;
-  }
+.plugin-file-cover {
+  background-color: #222222;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1920px;
+  min-height: 10974px;
+  position: relative;
 }
 
 .plugin-file-cover .text-wrapper {
