@@ -5,7 +5,9 @@
   max-width: 1920px;
   min-height: 10974px;
   position: relative;
-  margin: 0 auto
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 .plugin-file-cover .text-wrapper {
@@ -1413,7 +1415,7 @@
   line-height: normal;
 }
 
-img, .text-wrapper {
+img {
   max-width: 100%;
   height: auto;
 }  
