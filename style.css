@@ -1,8 +1,7 @@
 .plugin-file-cover {
   background-color: #222222;
   overflow: hidden;
-  width: 100%;
-  min-width: 1920px;
+  max-width: 100%;
   min-height: 10974px;
   position: relative;
 }
