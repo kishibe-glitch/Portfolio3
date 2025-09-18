@@ -1,13 +1,10 @@
 .plugin-file-cover {
   background-color: #222222;
-  overflow-x: auto;
+  overflow: hidden;
   width: 100%;
-  max-width: 100%;
+  min-width: 1920px;
   min-height: 10974px;
   position: relative;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0;
 }
 
 .plugin-file-cover .text-wrapper {
@@ -1414,4 +1411,3 @@
   letter-spacing: 0;
   line-height: normal;
 }
-
